@@ -10,5 +10,6 @@ print(random_monster)
 random_monster.take_damage(4)
 print(random_monster)
 
-troll = Troll("ug", 18, 1)
-print("ugly troll - {}".format(troll))
+troll = Troll("ug")
+print(troll)
+troll.grunt()
