@@ -13,3 +13,7 @@ print(random_monster)
 troll = Troll("ug")
 print(troll)
 troll.grunt()
+
+while troll.alive:
+    troll.take_damage(1)
+    print(troll)
